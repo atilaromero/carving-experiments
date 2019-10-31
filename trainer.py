@@ -14,13 +14,13 @@ class Trainer:
                  model,
                  group_by='by_file',
                  xs_encoder='8bits_11',
-                 validation_steps=20,
+                 validation_steps=28,
                  steps_per_epoch=10,
                  epochs=10000000,
-                 max_seconds=10*60,
-                 batch_size=400,
+                 max_seconds=None,
+                 batch_size=100,
                  min_delta=1e-03,
-                 patience=4,
+                 patience=10,
                  blockSampler=BlockSampler,
                  batchEncoder=BatchEncoder):
         self.model = model
