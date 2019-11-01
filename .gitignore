@@ -1,4 +1,4 @@
 .ipynb_checkpoints/
 __pycache__/
 govdocs1
-results/4.2b-pairs/*.h5
+*.h5
