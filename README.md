@@ -1,1 +1,1 @@
-# Distinction between high entropy data and random data in file fragment classification using neural networks
+# Neural networks applied to file fragment classification
